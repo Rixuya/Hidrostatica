@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El tiempo en nuestras vidas</title>
+    <link rel="icon" href="img/ICONO.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="script.js"></script>
+</head>
+    
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+
+<body>
+    <div class="container">
+        <header class="header">
+            <a class="logo" href="index.html">HIDROSTATICA</a>
+            <input type="checkbox" id="check">
+            <label class="mostrar-menu" for="check">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Sobre Nosotros</a>
+            </nav>
+        </header>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+        
+        
+    <main class="main">
+        <h1 class="titulo">Implementación de la Pantalla de Login en la Calculadora</h1>
+        <p class="interno"><br>   
+        <b class="negrita">Introducción</b><br>
+        El método validar() verifica credenciales y redirige al usuario a la pantalla principal, que incluye fórmulas clave de hidroestática para facilitar su uso y comprensión.
+        <br><br>
+        
+        <b class="negrita">Hemos creado nuestra clase FROMLOGIN:</b> <br><br>
+        <img src="img/lo1.jpg" alt="" width="600" style="margin-left: 130px; border: 1px solid #ffffff;"><BR></BR>
+         <br>Para el implementó de un método validar() para verificar las credenciales del usuario. Si son correctas, accede a la calculadora; si no, se muestra un error. Al presionar "Ingresar", se ejecuta el método ingresarBtnActionPerformed() que valida las credenciales.
+            Al iniciar sesión, el usuario llega a la pantalla principal de "From Hidro", donde se muestra una imagen con fórmulas de hidroestática, mejorando la experiencia y facilitando el uso educativo de la aplicación.
+            <br>
+            <br>
+        <img src="img/lo2.jpg" alt="" style="margin-left: 160px;"><br><br>
+        <b class="negrita">PANTALLA DE FORMULAS :</b><br> Al hacer clic en "Formulas", se abre una ventana llamada "From Formulas", que contiene fórmulas clave sobre hidroestática y mecánica de fluidos, como las relacionadas con densidad, presión, ley de Pascal y principio de Arquímedes. Estas fórmulas son esenciales para entender el comportamiento de los fluidos en ingeniería y física.
+        <br><br>    
+        <img src="img/lo3.jpg" alt="" width="600" style="margin-left: 160px;" >
+        <br><br>   
+        <b class="negrita">NUESTRA PAGINA PRINCIPAR DE LA CALCULADORA:</b><br>UNA VEZ AQUÍ el código Java correspondiente ejecuta un
+         método específico que dirige al usuario a la ventana adecuada para realizar la operación seleccionada<br><br>
+            <img src="img/lo4.jpg" alt="" style="margin-left: 160px;">
+        <br>
+        <br>    
+        <b class="negrita">EL USO DE METODOS PARA LA VISUALIZACION DE NUESTRAS FORMULAS:</b><br>
+        <b class="negrita">1.METODO btndensidadActionPerformed():</b><br><br>
+         <img src="img/me1.jpg" alt="" style="margin-left: 160px;" width="510">   
+        <br>
+        <b class="negrita">2. Método presionHidroActionPerformed():</b><br><br>
+         <img src="img/m2.jpg" alt="" style="margin-left: 160px;" width="500">   
+        <br>
+        <b class="negrita">3. Método btnarquiActionPerformed():</b><br><br> 
+         <img src="img/m3.jpg" alt="" style="margin-left: 160px;" width="500">   
+        <br>      
+        <br>   
+        <b class="negrita">RESULTADO:</b>
+        <br><br>
+        <img src="img/re1.jpg" alt="" width="550" style="margin-left: 160px;">
+        <br><br>        
+        <b class="negrita">EL USO DE METODOS PARA LA ASIGNACION DE NUESTRAS FORMULAS:</b>
+        <br>
+        <br>    
+        <b class="negrita">1. Método convertirAltura:</b><br>El método convertirAltura convierte valores de altura de diferentes unidades (cm, mm, km, pies e pulgadas) a metros, que es la unidad estándar utilizada para los cálculos de presión hidrostática.
+        <br><br>
+        <img src="img/fo1.jpg" alt="" width="550" style="margin-left: 160px;">
+        <br><br>    
+        <b class="negrita">2. Método convertirDensidad:</b> El método convertirDensidad convierte valores de densidad de diferentes unidades (mg/mL, g/L, kg/m³) a kg/m³, que es la unidad estándar para cálculos de densidad en el Sistema Internacional de Unidades (SI).
+        <br><br>
+        <img src="img/fo2.jpg" alt="" width="550" style="margin-left: 160px;">
+        <br><br><br>
+        <img src="img/fo4.jpg" alt="" width="550" style="margin-left: 160px;"><br><br>
+        <b class="negrita">RESULTADO FINAL:</b><br>
+        <br>
+        <img src="img/resu.jpg" alt="" style="margin-left: 160px;">
+        <br><br>
+        <b class="negrita">CONCLUSIÓN:</b><br>El desarrollo de la calculadora hidrostática en Java ha culminado en una herramienta eficaz y sólida para el análisis de fluidos. Durante el proyecto, hemos añadido diversas funcionalidades que mejoran significativamente la usabilidad y aseguran la precisión en los cálculos. Esta calculadora no solo cumple con las expectativas iniciales, sino que también establece una base firme para futuras actualizaciones y expansiones. La combinación de una interfaz fácil de usar, métodos de conversión precisos y cálculos confiables garantiza que esta herramienta será extremadamente útil tanto en entornos educativos como profesionales.
+        <br>
+        <br> 
+        
+        <br> 
+        </p>
+        <a class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/q_-mO8QJ4Ic?si=0srmU9s62A4j55u_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+        <br>
+        <br>
+        <br>
+        
+
+
+    </main> 
+        
+        
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+        
+        <footer class="footer">
+            <div class="uni">
+                <div  class="users">
+                    <i class="fa-solid fa-user"></i>
+                    <p class="nombre">José Eduardo Ñahui López</p>
+                    <span>|</span>
+                    <a class="email" href="mailto:Jose.nahui@upsjb.edu.pe">Jose.nahui@upsjb.edu.pe</a>
+ 
+                    <i class="fa-solid fa-user"></i>
+                    <p class="nombre">Dayron Beckham Ventura Sairitupac</p>
+                    <span>|</span>
+                    <a class="email" href="mailto:DAYRON.VENTURA@UPSJB.EDU.PE">DAYRON.VENTURA@UPSJB.EDU.PE</a>
+                    
+                    <i class="fa-solid fa-user"></i>
+                    <p class="nombre">Alonso moran tasayco</p>
+                    <span>|</span>
+                    <a class="email" href="mailto:luisa.moran@upsjb.edu.pe ">luisa.moran@upsjb.edu.pe </a>                   
+                    
+                    <i class="fa-solid fa-user"></i>
+                    <p class="nombre">Piero Stefano Aybar Poma</p>
+                    <span>|</span>
+                    <a class="email" href="mailto:piero.aybar@upsjb.edu.pe">piero.aybar@upsjb.edu.pe</a>
+        
+                    <i class="fa-solid fa-user"></i>
+                    <p class="nombre">Julio Michel Pariona Paucca</p>
+                    <span>|</span>
+                    <a class="email" href="mailto:JULIO.PARIONA@UPSJB.EDU.PE    ">JULIO.PARIONA@UPSJB.EDU.PE</a>
+            
+        
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p class="nombre">Ing. ESTEFANY ALMENDRA URDAY ESCOBAR</p>
+                    <span>|</span>
+                    <a class="email" href="mailto:Estefany.Urday@upsjb.edu.pe">Estefany.Urday@upsjb.edu.pe</a>
+                </div>
+                <div class="sjb">
+                    <img class="logo-u" src="img/SAN.jpg" alt="">
+                    <div class="igua">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <p>III ciclo - MA</p>
+                        <i></i>
+                        <p>FISICA II</p>
+                        <i></i>
+                        <p>Ingeniería de Computación y Sistemas</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="derechos">Copyright © 2024 | Todos los Derechos Reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
